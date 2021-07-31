@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "Mulish Bold";
+  src: url(./fonts/Mulish/static/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: "Mulish Regular";
+  src: url(./fonts/Mulish/static/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: "Mulish SemiBold";
+  src: url(./fonts/Mulish/static/Mulish-SemiBold.ttf);
+}
+.wrapper .first-page {
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+}
+.wrapper .first-page .left-side {
+  width: 340px;
+  height: 1080px;
+  background: linear-gradient(#282333, #18171f);
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .first-page .left-side .profile {
+  width: 300px;
+  height: 65px;
+  display: flex;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.wrapper .first-page .left-side .profile .profile-photo {
+  width: 65px;
+  height: 65px;
+}
+.wrapper .first-page .left-side .profile .profile-description {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.wrapper .first-page .left-side .profile .profile-description .profile-name {
+  font-size: 18px;
+  font-family: "Mulish Bold";
+  color: #ffffff;
+}
+.wrapper .first-page .left-side .profile .profile-description .profile-position {
+  font-size: 18px;
+  font-family: "Mulish Bold";
+  color: #6a696e;
+}
+.wrapper .first-page .left-side .course-menu {
+  padding-top: 100px;
+  padding-left: 40px;
+  list-style: none;
+}
+.wrapper .first-page .left-side .course-menu li {
+  display: flex;
+  padding-bottom: 50px;
+  font-family: "Mulish Bold";
+  color: #ffffff;
+  width: 220px;
+}
+.wrapper .first-page .left-side .course-menu li .item {
+  padding-left: 30px;
+  font-size: 18px;
+}
+.wrapper .first-page .left-side .course-menu :nth-child(4) {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #2d2a36;
+}
+.wrapper .first-page .left-side .account-menu {
+  list-style: none;
+}
+.wrapper .first-page .left-side .account-menu li {
+  display: flex;
+  padding-bottom: 50px;
+  font-family: "Mulish Bold";
+  color: #ffffff;
+  width: 220px;
+}
+.wrapper .first-page .left-side .account-menu li .item {
+  padding-left: 30px;
+  font-size: 18px;
+}
+.wrapper .first-page .center {
+  width: 1040px;
+  height: 1080px;
+  background: #17161d;
+}
+.wrapper .first-page .center .student-courses {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: "Mulish Bold";
+  padding-top: 250px;
+  padding-left: 50px;
+}
+.wrapper .first-page .center .student-courses .course {
+  width: 310px;
+  height: 230px;
+  background: #1e1d26;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.wrapper .first-page .center .student-courses .course .course-theme {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.wrapper .first-page .center .student-courses .course .course-theme .teacher {
+  padding-top: 10px;
+  display: flex;
+  width: 250px;
+  border-bottom: 1px solid #2a292f;
+}
+.wrapper .first-page .center .student-courses .course .course-theme .teacher .teacher-name {
+  color: #56565c;
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: "Mulish Regular";
+}
+.wrapper .first-page .center .student-courses .course .course-progress {
+  padding-top: 100px;
+  display: flex;
+}
+.wrapper .first-page .center .student-courses .course .course-progress .progress {
+  padding-left: 30px;
+  padding-right: 10px;
+  color: #45454a;
+  font-size: 14px;
+}
+.wrapper .first-page .center .student-courses .course .course-progress .progress-bar {
+  background-color: #2a292f;
+  margin-top: 8px;
+  height: 3px;
+  width: 210px;
+}
+.wrapper .first-page .center .student-courses .course .course-progress .progress-bar div {
+  background-color: #8a2eff;
+  width: 75%;
+  height: 3px;
+}
+.wrapper .first-page .right-side {
+  width: 540px;
+  height: 1080px;
+  background: linear-gradient(#211d29, #17161d);
+}
+.wrapper .first-page .right-side .right-top {
+  width: 450px;
+  margin-left: 40px;
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #2a292f;
+}
+.wrapper .first-page .right-side .right-top .search-bar {
+  background-color: #292630;
+  width: 300px;
+  height: 45px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.wrapper .first-page .right-side .right-top .search-bar .search {
+  font-family: "Mulish SemiBold";
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background: url(./img/akar-icons_search.svg) no-repeat center left;
+  padding-left: 30px;
+  background-size: auto 100%;
+}
+.wrapper .first-page .right-side .right-top .account {
+  padding-left: 100px;
+  margin-top: 40px;
+}
+.wrapper .first-page .right-side .right-top .settings {
+  padding-left: 20px;
+  margin-top: 40px;
+}
+.wrapper .first-page .right-side .current-lessons {
+  margin-left: 40px;
+  padding-top: 20px;
+}
+.wrapper .first-page .right-side .current-lessons .title {
+  color: #ffffff;
+  font-family: "Mulish Bold";
+  font-size: 28px;
+}
+.wrapper .first-page .right-side .current-lessons .lessons {
+  display: flex;
+  margin-top: 20px;
+}
+.wrapper .first-page .right-side .current-lessons .lessons .first-subject {
+  width: 220px;
+  height: 170px;
+  background: url(./img/javascriptTemplate.svg) no-repeat;
+}
+.wrapper .first-page .right-side .current-lessons .lessons .first-subject .lesson {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Mulish Bold";
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.wrapper .first-page .right-side .current-lessons .lessons .first-subject .lesson .lesson-language {
+  font-size: 18px;
+  color: #6a696e;
+}
+.wrapper .first-page .right-side .current-lessons .lessons .second-subject {
+  margin-left: 20px;
+  width: 220px;
+  height: 170px;
+  background: url(./img/pythonTemplate.svg) no-repeat;
+}
+.wrapper .first-page .right-side .current-lessons .lessons .second-subject .lesson {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Mulish Bold";
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.wrapper .first-page .right-side .current-lessons .lessons .second-subject .lesson .lesson-language {
+  font-size: 18px;
+  color: #6a696e;
+}
+.wrapper .first-page .right-side .lessons-schedule .schedule {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+.wrapper .first-page .right-side .lessons-schedule .schedule .schedule-info .title {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: "Mulish Bold";
+}
+.wrapper .first-page .right-side .lessons-schedule .schedule .schedule-info .date .current-date {
+  color: #45454a;
+  font-size: 18px;
+  font-family: "Mulish Bold";
+}
+.wrapper .first-page .right-side .lessons-schedule .schedule .calendar-logo {
+  padding-top: 10px;
+  padding-left: 260px;
+  width: 32px;
+  height: 32px;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic {
+  display: flex;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic .borders {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic .borders .graphic-border {
+  padding-top: 20px;
+  width: 390px;
+  height: 10px;
+  background-image: linear-gradient(to right, #45454a 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic .schedule-times {
+  padding-left: 40px;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic .schedule-times .time {
+  font-family: "Mulish Bold";
+  font-size: 16px;
+  color: #6a696e;
+  padding-top: 40px;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic .schedule-lesson {
+  background: url(./img/schedule-lesson-template.svg) no-repeat;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+  width: 210px;
+  height: 80px;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic .schedule-lesson .lesson-title {
+  font-size: 20px;
+  font-family: "Mulish Bold";
+  color: #ffffff;
+  padding-top: 15px;
+  padding-left: 22px;
+}
+.wrapper .first-page .right-side .lessons-schedule .graphic .schedule-lesson .lesson-time {
+  padding-left: 40px;
+  padding-top: 6px;
+  font-size: 12px;
+  font-family: "Mulish Bold";
+  color: #45454a;
+}/*# sourceMappingURL=style.css.map */
